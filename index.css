@@ -1,0 +1,64 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+    font-family: "Montserrat";
+    /* font-family: "Fraunces"; */
+}
+.content-box{
+    height: auto;
+    width: 375px;
+    margin: 20px auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    color: hsl(228, 12%, 48%);
+}
+.content-img{
+    height: 40vh;
+    /* background-color: blue; */
+    background: url("./images/image-product-mobile.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.content-info{
+    /* height: auto; */
+    padding: 20px;
+    margin-top: -40px;
+}
+h6{
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    font-size: 12px;
+}
+h3{
+    color: hsl(212, 21%, 14%);
+    font-weight: 700;
+    font-size: 2.7em;
+    line-height: 0.9em;
+}
+.new-price{
+    font-size: 2.0em;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+}
+.old-price{
+    background-color: red;
+    margin-left: 15px;
+    text-decoration-line: line-through;
+}
+i{
+    color: blue;
+}
+.cart-button{
+    width: 100%;
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
+    padding: 13px 50px;
+    border: thin;
+    border-radius: 7px;
+}
+
+.attribution{
+    margin-top: 25px;
+}
