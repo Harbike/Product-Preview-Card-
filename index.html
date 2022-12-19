@@ -2,22 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <link rel="stylesheet" href="bootstrap.css">
+
   <link rel="stylesheet" href="index.css" type="text/css">
-  <link rel="stylesheet" href="https://fonts.google.com/specimen/Montserrat:500,700|Fraunces:700" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | Product preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <!-- <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style> -->
 </head>
+
 <body>
   <div class="container">
     <div class="content-box">
@@ -27,13 +25,14 @@
       <div class="content-info">
         <h6>Perfume</h6>
         <h3>Gabrielle Essence Eau De Parfum</h3>
-        <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.
+        <p class="description">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.
       <div class="content-price">
-        <p>
-          <span class="new-price">$149.99</span> <span class="old-price">$169.99</span>
-        </p>
+        <p class="new-price">$149.99</p>
+        <p class="old-price">$169.99</p>
       </div>
-      <input input type="button" value="Add to Cart" class="cart-button">
+      <div class="input-icon">
+        <button class="cart-button"><i class="fa fa-shopping-cart cart-icon" aria-hidden="true"></i>Add to Cart </button>
+      </div>
       
       <!-- attribution -->
       <div class="attribution">

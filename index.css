@@ -2,7 +2,6 @@ body{
     background-color: hsl(30, 38%, 92%);
     font-size: 14px;
     font-family: "Montserrat";
-    /* font-family: "Fraunces"; */
 }
 .content-box{
     height: auto;
@@ -14,18 +13,14 @@ body{
 }
 .content-img{
     height: 40vh;
-    /* background-color: blue; */
     background: url("https://res.cloudinary.com/harbike/image/upload/v1670892843/image-product-mobile_vjhsrs.jpg");
-    /* ./images/image-product-mobile.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 .content-info{
-    /* height: auto; */
     padding: 20px;
-    margin-top: -40px;
 }
 h6{
     text-transform: uppercase;
@@ -35,33 +30,54 @@ h6{
 h3{
     color: hsl(212, 21%, 14%);
     font-weight: 700;
+    font-family: "Fraunces";
     font-size: 2.7em;
     line-height: 0.9em;
 }
+.description{
+    font-size: 1rem;
+    font-family: "Montserrat";
+}
 .new-price{
-    font-size: 2.0em;
+    font-size: 2.0rem;
     font-weight: 700;
     color: hsl(158, 36%, 37%);
+    font-family: "Fraunces";
 }
 .old-price{
-    background-color: red;
-    margin-left: 15px;
     text-decoration-line: line-through;
+    margin: 15px 15px;
 }
-i{
-    color: blue;
+p{
+    float: left;
 }
 .cart-button{
+    position: relative;
     width: 100%;
     background-color: hsl(158, 36%, 37%);
     color: hsl(0, 0%, 100%);
     padding: 13px 50px;
     border: thin;
     border-radius: 7px;
+    font-family: "Montserrat";
+}
+.cart-button:hover{
+    background-color: hsl(158, 43%, 24%);
+}
+.cart-icon{
+    position: absolute;
+    top: 30%;
+    left:32%;
+    display: flex;
+    /* margin: -8px -15px -5px -15px; */
+
 }
 
 .attribution{
     margin-top: 25px;
     text-align: center;
     color: hsl(228, 45%, 44%);
+}
+.attribution a{
+    text-decoration: none;
 }
